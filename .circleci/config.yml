@@ -16,7 +16,6 @@ jobs:
           command: |
             npm install -g grunt-cli
             ls -la
-            grunt build
       
       - save_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
