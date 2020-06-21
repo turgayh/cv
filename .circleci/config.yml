@@ -17,13 +17,18 @@ jobs:
           name: grunt build
           command: |
             sudo npm install -g grunt-cli
-            ls -la
             sudo grunt build
+            ls -la
       - run:
           name: update cv
           command: |
             mkdir cv
             cd cv
+            git clone https://github.com/turgayh/blog.git
+            cd blog
+            rm -rf content/resume/*
+            cp ~/.dist ./cv/blog/content/resume
+            ls -la
 
       - save_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
