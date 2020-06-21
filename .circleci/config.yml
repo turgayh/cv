@@ -16,13 +16,13 @@ jobs:
           command: |
             sudo npm install -g grunt-cli
             ls -la
-            grunt build
+            sudo grunt build
       - run:
           name: update cv
           command: |
             mkdir cv
             cd cv
-            
+
       - save_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
           paths:
