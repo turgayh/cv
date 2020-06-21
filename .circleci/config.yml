@@ -10,10 +10,15 @@ workflows:
   welcome:
     # Run the welcome/run job in its own container
     jobs:
-      steps:
-        run:
-          name: "Grunt Build"
-          command: |
-            npm install -g grunt-cli
-            grunt build
-            ls -la
+      build:
+        docker:
+          #- image: felicianotech/docker-hugo
+        working_directory: ~/project
+        steps:
+          - checkout
+          - run:
+              name: "Run Grunt "
+              command: |
+                npm install -g grunt-cli
+                grunt build
+                ls 
