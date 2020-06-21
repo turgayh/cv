@@ -13,6 +13,11 @@ jobs:
             sudo npm install
       - restore_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
+      - save_cache:
+          key: dependency-cache-{{ checksum "package-lock.json" }}
+          paths:
+            - ./node_modules
+
       - run:
           name: grunt build
           command: |
@@ -28,8 +33,15 @@ jobs:
             cd blog
             rm -rf content/resume/*
             cp -r ../../dist ./content/resume
+      - run:
+          name: push blog Github Repo
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then  
+              git config --global user.email "turgayh@itu.edu.tr"
+              git config --global user.name "turgayh"
+              cd ./cv/blog
+              git add .
+              git commit -m "Circle CI Update Website | Build Number:${CIRCLE_BUILD_NUM}"
+              git push -q https://${DEPLOY_KEY}@github.com/turgayh/cv master
+            fi
 
-      - save_cache:
-          key: dependency-cache-{{ checksum "package-lock.json" }}
-          paths:
-            - ./node_modules
