@@ -42,6 +42,6 @@ jobs:
               cd ./cv/blog
               git add .
               git commit -m "Circle CI Update Website | Build Number:${CIRCLE_BUILD_NUM}"
-              git push -q https://${DEPLOY_KEY}@github.com/turgayh/cv master
+              git push -q https://${DEPLOY_KEY}@github.com/turgayh/blog master
             fi
-
+            
