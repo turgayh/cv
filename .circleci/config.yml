@@ -7,3 +7,9 @@ workflows:
   node-tests:
     jobs:
       - node/test
+      steps:
+        run:
+          name: "hello"
+          command: |
+            ls
+        
