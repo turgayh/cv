@@ -1,15 +1,26 @@
-[{
-  "name": "CV",
-  "description": "A simple, modern CV/resume template. This CV is built using this template.",
-  "github": "https://github.com/turgayh/cv"
-}, {
-  "name": "Data Analysis in Fundamental Sciences",
-  "description": "Using fundemantel of ML algorithm and implement on specific data",
-  "github": "https://github.com/turgayh/MATH388E"
-},
-{
-  "name" : "Web Scraping Project Using Python",
-  "description" : "A basic web scraping template ",
-  "github" : "https://github.com/turgayh/web-scraping"
-}
+[
+  {
+    "name": "https://github.com/turgayh/Interactive-Migration-Map",
+    "description": "Monitoring Refugee Crisis in the Aegean Sea",
+    "github": "https://github.com/turgayh/Interactive-Migration-Map"
+  },
+  {
+    "name": "CV",
+    "description": "A simple, modern CV/resume template. This CV is built using this template.",
+    "github": "https://github.com/turgayh/cv"
+  }, {
+    "name": "Data Analysis in Fundamental Sciences",
+    "description": "Using fundemantel of ML algorithm and implement on specific data",
+    "github": "https://github.com/turgayh/MATH388E"
+  },
+  {
+    "name" : "Web Scraping Project Using Python",
+    "description" : "A basic web scraping template ",
+    "github" : "https://github.com/turgayh/web-scraping"
+  },
+  {
+    "name" : "Stock API",
+    "description" : "commercial website stock tracking ",
+    "github": "https://github.com/turgayh/Stock.WebApi"
+  }
 ] 
