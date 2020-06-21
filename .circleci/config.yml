@@ -14,7 +14,7 @@ jobs:
       - run:
           name: grunt build
           command: |
-            npm install -g grunt-cli
+            sudo npm install -g grunt-cli
             ls -la
       
       - save_cache:
