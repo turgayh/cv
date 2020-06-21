@@ -27,7 +27,7 @@ jobs:
             git clone https://github.com/turgayh/blog.git
             cd blog
             rm -rf content/resume/*
-            cp ~/.dist ./cv/blog/content/resume
+            cp ~/dist ./cv/blog/content/resume
             ls -la
 
       - save_cache:
