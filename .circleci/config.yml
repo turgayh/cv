@@ -27,7 +27,7 @@ jobs:
             git clone https://github.com/turgayh/blog.git
             cd blog
             rm -rf content/resume/*
-            cp -r ../../dist ./cv/blog/content/resume
+            cp -r ../../dist ./content/resume
 
       - save_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
