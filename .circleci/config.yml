@@ -10,6 +10,10 @@ workflows:
   welcome:
     # Run the welcome/run job in its own container
     jobs:
-      - npm install -g grunt-cli
-      - grunt build
-      - ls -la
+      steps:
+        run:
+          name: "Grunt Build"
+          command: |
+            npm install -g grunt-cli
+            grunt build
+            ls -la
