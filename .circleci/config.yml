@@ -14,9 +14,10 @@ jobs:
       - run:
           name: grunt build
           command: |
-            sudo npm install -g grunt-cli
-            grunt build
+            npm install -g grunt-cli
             ls -la
+            grunt build
+      
       - save_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
           paths:
