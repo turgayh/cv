@@ -32,7 +32,7 @@ jobs:
             git clone https://github.com/turgayh/blog.git
             cd blog
             rm -rf content/resume/*
-            cp -r ../../dist ./content/resume
+            cp -r ../../dist/* ./content/resume
       - run:
           name: push blog Github Repo
           command: |
@@ -44,4 +44,3 @@ jobs:
               git commit -m "Circle CI Update Website | Build Number:${CIRCLE_BUILD_NUM}"
               git push -q https://${DEPLOY_KEY}@github.com/turgayh/blog master
             fi
-            
