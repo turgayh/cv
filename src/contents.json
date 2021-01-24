@@ -1,5 +1,11 @@
 [
-  "personal_info", "experiences", "projects", "education", "skills",
-  "certificates", "honors", "languages", "volunteering_experiences",
+  "personal_info",
+  "experiences",
+  "projects",
+  "education",
+  "skills",
+  "certificates",
+  "honors",
+  "languages",
   "color_palette"
 ]

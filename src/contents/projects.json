@@ -10,18 +10,18 @@
     "github": "https://github.com/turgayh/MATH388E"
   },
   {
-    "name" : "Web Scraping Project Using Python",
-    "description" : "A basic web scraping template ",
-    "github" : "https://github.com/turgayh/web-scraping"
+    "name": "Game Leaderboard System Design",
+    "description": "To create game leaderboard system and publishing to digitalocean",
+    "github": "https://github.com/turgayh/game-leaderboard-system-design"
   },
   {
-    "name" : "Stock API",
-    "description" : "commercial website stock tracking ",
+    "name": "Stock API",
+    "description": "Commercial website stock tracking ",
     "github": "https://github.com/turgayh/Stock.WebApi"
   },
   {
-    "name" : "CollectSend",
-    "description" : "Android app develop with React-Native",
-    "github":"https://play.google.com/store/apps/details?id=com.collectsend" 
+    "name": "CollectSend",
+    "description": "Android app develop with React-Native and Firebase",
+    "github": "https://play.google.com/store/apps/details?id=com.collectsend"
   }
-] 
+]
