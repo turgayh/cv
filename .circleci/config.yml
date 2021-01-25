@@ -10,12 +10,6 @@ jobs:
           name: update-npm
           command: | 
             sudo npm install
-      - restore_cache:
-          key: dependency-cache-{{ checksum "package-lock.json" }}
-      - save_cache:
-          key: dependency-cache-{{ checksum "package-lock.json" }}
-          paths:
-            - ./node_modules
 
       - run:
           name: grunt build
