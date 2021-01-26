@@ -1,14 +1,18 @@
 [
-  {
-    "company": "ITU Cekirdek",
-    "role": "Web Developer",
-    "date": "06/2017 - 09/2017",
-    "location": "Istanbul, Turkey",
+    {
+    "company": "INTERTECH",
+    "role": "Software Engineering",
+    "date": "03/2020 - Present",
+    "location": "Istanbul,Esentepe,Turkey",
     "description_bullets": [
-      "Integrating data from various back-end services and database"
+      "To development part of gateway with  NodeJS in microservices digital banking project",
+      "Denizbank tablet sales channel was developed with ReactJS and .Net Core",
+      "Full-stack web development using ASP.NET Core, ReactJS , SQLServer and CI tools",
+      "Working on R&D projects",
+      "To maintenance  unit test on the react infrastructure project "
     ]
   },
-  {
+    {
     "company": "INTERTECH",
     "role": "Parttime Software Development",
     "date": "02/2019 - 03/2020",
@@ -20,17 +24,23 @@
       "In analyses based on performance test tool like Gatling , Locust, and  Jmeter "
     ]
   },
-  {
-    "company": "INTERTECH",
-    "role": "Software Engineering",
-    "date": "03/2020 - Present",
-    "location": "Istanbul,Esentepe,Turkey",
+    {
+    "company": "A Modo Mio Ristorante",
+    "role": "Chef Helper",
+    "date": "06/2018 - 09/2018",
+    "location": "New Jersey, United States",
     "description_bullets": [
-      "To development part of gateway with  NodeJS in microservices digital banking project",
-      "Denizbank tablet sales channel was developed with ReactJS and .Net Core",
-      "Full-stack web development using ASP.NET Core, ReactJS , SQLServer and CI tools",
-      "Working on R&D projects",
-      "To maintenance  unit test on the react infrastructure project "
+      "I attend work and travel program in USA. I worked 4 months in Sea Isle City NJ"
+    ]
+  },
+  
+  {
+    "company": "ITU Cekirdek",
+    "role": "Web Developer",
+    "date": "06/2017 - 09/2017",
+    "location": "Istanbul, Turkey",
+    "description_bullets": [
+      "Integrating data from various back-end services and database"
     ]
   }
 ]
