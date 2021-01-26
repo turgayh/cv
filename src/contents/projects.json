@@ -5,6 +5,11 @@
     "github": "https://github.com/turgayh/go-backend.git"
   },
   {
+    "name": "Game Leaderboard System Design",
+    "description": "To create game leaderboard system and publishing to digitalocean",
+    "github": "https://github.com/turgayh/game-leaderboard-system-design"
+  },
+  {
     "name": "Interactive-Migration-Map",
     "description": "Monitoring Refugee Crisis in the Aegean Sea",
     "github": "https://github.com/turgayh/Interactive-Migration-Map"
@@ -13,11 +18,6 @@
     "name": "Data Analysis in Fundamental Sciences",
     "description": "Using fundemantel of ML algorithm and implement on specific data",
     "github": "https://github.com/turgayh/MATH388E"
-  },
-  {
-    "name": "Game Leaderboard System Design",
-    "description": "To create game leaderboard system and publishing to digitalocean",
-    "github": "https://github.com/turgayh/game-leaderboard-system-design"
   },
   {
     "name": "Stock API",
