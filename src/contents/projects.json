@@ -1,32 +1,32 @@
 [
   {
     "name": "Go backend service",
-    "description": "Mobile app backend service develop with Go Gin framework and redis ",
+    "description": "Mobile app backend service develop with Go Gin framework ,Mysql, Redis ",
     "github": "https://github.com/turgayh/go-backend.git"
   },
   {
     "name": "Game Leaderboard System Design",
-    "description": "To create game leaderboard system and publishing to digitalocean",
+    "description": "To create game leaderboard system and publishing to digitalocean.(NodeJS Express, MongoDb, VanillaJS)",
     "github": "https://github.com/turgayh/game-leaderboard-system-design"
   },
   {
     "name": "Interactive-Migration-Map",
-    "description": "Monitoring Refugee Crisis in the Aegean Sea",
+    "description": "Monitoring Refugee Crisis in the Aegean Sea. (R Language, CSS)",
     "github": "https://github.com/turgayh/Interactive-Migration-Map"
   },
   {
     "name": "Data Analysis in Fundamental Sciences",
-    "description": "Using fundemantel of ML algorithm and implement on specific data",
+    "description": "Using fundemantel of ML algorithm and implement on specific data (Python)",
     "github": "https://github.com/turgayh/MATH388E"
   },
   {
     "name": "Stock API",
-    "description": "Commercial website stock tracking ",
+    "description": "Commercial website stock tracking (.Net Core , Mongo)",
     "github": "https://github.com/turgayh/Stock.WebApi"
   },
   {
     "name": "CollectSend",
-    "description": "Android app develop with React-Native and Firebase",
+    "description": "Android app development (React Native , Firebase)",
     "github": "https://play.google.com/store/apps/details?id=com.collectsend"
   }
 ]
