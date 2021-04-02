@@ -1,48 +1,45 @@
 [
-    {
-    "company": "Emirates NBD",
-    "role": "Software Engineering",
-    "date": "12/2020 - Present",
-    "location": "Dubai,United Arab Emirates",
-    "description_bullets": [
-      "To development part of backend with  NodeJS in microservices digital mobile application",
-      "Debugging and solving problem in microservices architecture",
-    ]
-  },
-    
-    {
-    "company": "INTERTECH",
-    "role": "Software Engineering",
-    "date": "03/2020 - 12/2020",
-    "location": "Istanbul,Esentepe,Turkey",
-    "description_bullets": [
-      "Denizbank tablet sales channel was developed with ReactJS and .Net Core",
-      "Full-stack web development using ASP.NET Core, ReactJS , SQLServer and CI tools",
-      "Working on R&D projects",
-      "To maintenance  unit test on the react infrastructure project "
-    ]
-  },
-    {
-    "company": "INTERTECH",
-    "role": "Parttime Software Development",
-    "date": "02/2019 - 03/2020",
-    "location": "Istanbul,Pendik,Turkey",
-    "description_bullets": [
-      "Full-stack web development using ASP.NET Core, ReactJS , SQLServer and CI tools",
-      "Worked in a team-based development environment using agile methodologies like Kanban and Scrum.",
-      "Built, tested and successfully launched the key web product Intertech DataManagement Project",
-      "In analyses based on performance test tool like Gatling , Locust, and  Jmeter "
-    ]
-  },
-
-  
-  {
-    "company": "ITU Cekirdek",
-    "role": "Web Developer",
-    "date": "06/2017 - 09/2017",
-    "location": "Istanbul, Turkey",
-    "description_bullets": [
-      "Integrating data from various back-end services and database"
-    ]
-  }
+   {
+      "company":"Emirates NBD",
+      "role":"Software Engineering",
+      "date":"12/2020 - Present",
+      "location":"Dubai,United Arab Emirates",
+      "description_bullets":[
+         "To development part of backend with  NodeJS in microservices digital mobile application",
+         "Debugging and solving problem in microservices architecture"
+      ]
+   },
+   {
+      "company":"INTERTECH",
+      "role":"Software Engineering",
+      "date":"03/2020 - 12/2020",
+      "location":"Istanbul,Esentepe,Turkey",
+      "description_bullets":[
+         "Denizbank tablet sales channel was developed with ReactJS and .Net Core",
+         "Full-stack web development using ASP.NET Core, ReactJS , SQLServer and CI tools",
+         "Working on R&D projects",
+         "To maintenance  unit test on the react infrastructure project "
+      ]
+   },
+   {
+      "company":"INTERTECH",
+      "role":"Parttime Software Development",
+      "date":"02/2019 - 03/2020",
+      "location":"Istanbul,Pendik,Turkey",
+      "description_bullets":[
+         "Full-stack web development using ASP.NET Core, ReactJS , SQLServer and CI tools",
+         "Worked in a team-based development environment using agile methodologies like Kanban and Scrum.",
+         "Built, tested and successfully launched the key web product Intertech DataManagement Project",
+         "In analyses based on performance test tool like Gatling , Locust, and  Jmeter "
+      ]
+   },
+   {
+      "company":"ITU Cekirdek",
+      "role":"Web Developer",
+      "date":"06/2017 - 09/2017",
+      "location":"Istanbul, Turkey",
+      "description_bullets":[
+         "Integrating data from various back-end services and database"
+      ]
+   }
 ]
