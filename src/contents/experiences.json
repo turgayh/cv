@@ -1,11 +1,21 @@
 [
     {
+    "company": "Emirates NBD",
+    "role": "Software Engineering",
+    "date": "12/2020 - Present",
+    "location": "Dubai,United Arab Emirates",
+    "description_bullets": [
+      "To development part of backend with  NodeJS in microservices digital mobile application",
+      "Debugging and solving problem in microservices architecture",
+    ]
+  },
+    
+    {
     "company": "INTERTECH",
     "role": "Software Engineering",
-    "date": "03/2020 - Present",
+    "date": "03/2020 - 12/2020",
     "location": "Istanbul,Esentepe,Turkey",
     "description_bullets": [
-      "To development part of gateway with  NodeJS in microservices digital banking project",
       "Denizbank tablet sales channel was developed with ReactJS and .Net Core",
       "Full-stack web development using ASP.NET Core, ReactJS , SQLServer and CI tools",
       "Working on R&D projects",
@@ -24,15 +34,7 @@
       "In analyses based on performance test tool like Gatling , Locust, and  Jmeter "
     ]
   },
-    {
-    "company": "A Modo Mio Ristorante",
-    "role": "Chef Helper",
-    "date": "06/2018 - 09/2018",
-    "location": "New Jersey, United States",
-    "description_bullets": [
-      "I attend work and travel program in USA. I worked 4 months in Sea Isle City NJ"
-    ]
-  },
+
   
   {
     "company": "ITU Cekirdek",
